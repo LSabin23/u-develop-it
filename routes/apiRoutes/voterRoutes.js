@@ -1,5 +1,4 @@
 const express = require('express')
-const res = require('express/lib/response')
 const router = express.Router()
 const db = require('../../db/connection')
 const inputCheck = require('../../utils/inputCheck')
